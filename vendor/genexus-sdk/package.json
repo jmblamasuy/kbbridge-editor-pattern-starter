@@ -1,6 +1,6 @@
 {
   "name": "@kbbridge/genexus-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vendored compiled copy of @kbbridge/genexus-sdk. Do not edit; re-vendor from the kbbridge-editor-genexus-sdk repository.",
   "main": "index.js",
   "types": "index.d.ts",
