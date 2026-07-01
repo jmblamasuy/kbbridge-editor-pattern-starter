@@ -63,7 +63,7 @@ internal class GridCustomRenderTypeEditor : PatternCustomTypeEditor {
 }
 ```
 
-**TypeScript** equivalent (what ships in `kbbridge-editor-pattern-genexus-workwith`):
+**TypeScript** equivalent (what ships in [`kbbridge-editor-pattern-genexus-workwith`](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith)):
 
 ```ts
 // Equivalent to WorkWith/Source/Custom/WorkWithCustomTypeSupport.cs

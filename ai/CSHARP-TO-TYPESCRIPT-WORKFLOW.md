@@ -2,7 +2,7 @@
 
 If your pattern already has a GeneXus **.NET** implementation, the fastest, most faithful
 way to build the KB Editor extension is to **transcribe** the relevant .NET classes to
-TypeScript against `@kbbridge/genexus-sdk`, which deliberately mirrors the GeneXus .NET
+TypeScript against [`@kbbridge/genexus-sdk`](https://github.com/jmblamasuy/kbbridge-editor-genexus-sdk), which deliberately mirrors the GeneXus .NET
 pattern SDK.
 
 ## Setup
@@ -57,4 +57,4 @@ pattern SDK.
 - If transcribing a GeneXus-distributed pattern, add a `NOTICE` attributing GeneXus and
   confirm distribution terms before publishing.
 
-See the `kbbridge-editor-pattern-genexus-workwith` project for a complete worked transcription.
+See the [`kbbridge-editor-pattern-genexus-workwith`](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith) project for a complete worked transcription.

@@ -6,7 +6,7 @@ experience: dynamic dropdowns, custom node captions, and context commands.
 
 This starter contains the wiring and **no example logic** — it is the blank canvas you
 start from. For a complete, real-world implementation see the companion
-**`kbbridge-editor-pattern-genexus-workwith`** project (a faithful port of the GeneXus *Work With*
+[**`kbbridge-editor-pattern-genexus-workwith`**](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith) project (a faithful port of the GeneXus *Work With*
 pattern) and the documentation site.
 
 > **New here? Read [`ai/START-HERE.md`](ai/START-HERE.md) first.** It explains the
@@ -16,7 +16,7 @@ pattern) and the documentation site.
 
 - `src/extension.ts` — activates, obtains the `PatternExtensionAPI` from KB Editor, and
   exposes a single `registerProviders()` hook with a `TODO`.
-- `vendor/genexus-sdk/` — a vendored, compiled copy of `@kbbridge/genexus-sdk` (the API you
+- `vendor/genexus-sdk/` — a vendored, compiled copy of [`@kbbridge/genexus-sdk`](https://github.com/jmblamasuy/kbbridge-editor-genexus-sdk) (the API you
   code against). MIT licensed; safe to commit.
 - `scripts/bundle-dependencies.js` — copies the vendored SDK into `node_modules` (for
   building) and `out/node_modules` (so the packaged `.vsix` runs standalone).
